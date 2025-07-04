@@ -95,3 +95,44 @@ footer {
   text-align: center;
   color: #FFF; 
 }
+
+.neand2 {
+  position: relative;
+  display: fixed;
+  box-sizing:inline-block;
+  height: 180px;
+  width: 300px;
+opacity: 0;
+transform: translateX(800px);
+
+animation: moveright 5.5s linear forwards;
+animation: moveright 5.5s linear forwards;
+}
+
+@-o-keyframes moveright {
+  100%{
+    opacity: 80;
+    transform: translateX(0px);
+
+  }
+}
+
+.neand {
+  position: relative;
+  display: fixed;
+  box-sizing:inline-block;
+  height: 169px;
+  width: 300px;
+opacity: 0;
+transform: translate(1200px);
+
+
+animation: moveright 12s linear forwards;
+}
+
+@keyframes moveright {
+  100%{
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
