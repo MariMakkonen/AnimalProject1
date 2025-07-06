@@ -9,10 +9,11 @@ header {
 background-color:rgb(37, 122, 67);
 color: black;
 width: 100%;
-border-width: 5px;
-border-color: rgb(18, 109, 109);
+border: 5px rgb(4, 65, 65);
+border-style: solid;
+border-color: rgb(10, 110, 110);
 border-radius: 0px;
-padding: 5px;
+padding: 5px, 5px;
 position: initial;
 float: sticky;
 }
@@ -21,7 +22,8 @@ h2 {
 font-family: font-family; 'Yantramanav', sans-serif;
 font-size: 24px;
 color: #FFF;
-text-align: center;}
+text-align: center;
+}
 
 p {
 font-family: 'Yantramanav', sans-serif;
@@ -40,22 +42,25 @@ text-align: center;
 li {
 font-family: 'Yantramanav', sans-serif;
 font-size: 14px;
-color:black;
+color:azure;
 }
 
+ul {
+  font-family: 'Yantramanav', sans-serif;
+font-size: 14px;
+color:azure;
+}
 img {
   position: relative;
   text-align: center;
   box-sizing: border-box;
   margin: 10, 100, 10, 100;
+  border-radius: 5%;
 }
 
 .animal-types {
   background-color:hsla(219, 79%, 66%, 20%);
   color: hsla(219,79,66,20), transparent rgba(red, rgb(33, 182, 33), rgb(18, 18, 86), alpha)a(219, 79%, 66%, 10%);
-   hover(cornflowerblue);
-  button:default;
-
   box-sizing: content-box;
   padding: 40px;
   text-align: center;
@@ -64,7 +69,7 @@ img {
   border-radius: 15px;
   margin: 20px;
   color: darkslategray;
-  postion: relative;
+  position: relative;
   max-width: 30%;
   display:inline-block;
   float:initial;
@@ -81,12 +86,19 @@ img {
 }
 
 .linkedimg {
-postion:initial;
-width: 100%;
+position: 20px, 200px, 200px, 20px;
+padding-left: 500px;
+direction: initial;
+width: 80%;
 display:inline-block;
 margin: 20;
 text-align: center;
 box-sizing:border-box;
+border: 5px rgb(4, 65, 65);
+border-style: solid;
+border-color: rgb(10, 110, 110);
+border-width: 2px;
+border-radius: 0%;
 }
 
 footer {
